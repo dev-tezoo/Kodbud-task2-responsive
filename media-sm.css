@@ -1,0 +1,30 @@
+
+@media screen and (max-width: 640px) {
+ #page1{
+    padding: 1vh 2vw;
+}
+
+nav{
+    height: 8vh;
+    width: 96vw;
+    padding: 0 3vw;
+}
+
+.nav-left{
+    font-size: 1.2rem;
+}
+.nav-right ul{
+    gap: 10px;
+}
+
+.follow-btn{
+    padding: 5px 10px;
+    font-size: 0.7rem;
+}
+.follow-btn img{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+}
