@@ -26,5 +26,22 @@ nav{
     width: 20px;
     height: 20px;
 }
+.pg1-body{
+    background: url(assests/pic3.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    width: 96vw;
+    margin-top: 2vh;
+}
+
+.pg1-body h1{
+    font: bold 6.5rem/1.2 "font1";
+    color: orangered;
+}
+.pg1-body h2{
+    font: bold 2rem/1.2 "font3";
+}
 
 }
