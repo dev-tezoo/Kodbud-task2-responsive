@@ -37,7 +37,7 @@ nav{
 }
 
 .pg1-body h1{
-    font: bold 6.5rem/1.2 "font1";
+    font: bold 6rem/1.2 "font1";
     color: orangered;
 }
 .pg1-body h2{
@@ -138,6 +138,49 @@ nav{
     height: 40vh;
     width: 100%;
     background: url(assests/pic2.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#page5{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    padding: 1vh 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.pg5left{
+    /* border: none; */
+    padding: 3vh;
+    height: 45vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+.pg5left a{
+    text-decoration: none;
+}
+.pg5left h1{
+    font: bold 4rem "font1";
+    color: orangered;
+}
+.pg5left h2{
+    font: 1.4rem "font3";
+}
+
+.pg5right{
+    height: 45vh;
+    width: 95vw;
+    background: url(assests/pic10.JPG);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
