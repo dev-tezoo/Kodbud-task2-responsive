@@ -74,4 +74,43 @@ nav{
     text-shadow: 2px 2px 4px #000000;
 }
 
+
+.pg3cont{
+    height: 90vh;
+    width: 90vw;
+    background: url(assests/pic7.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.pg3cont2{
+    height: 90vh;
+    width: 90vw;
+    background-color: #00000033;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 1vh 2vw;
+    color: white;
+}
+
+
+.pg3cont2 h1{
+    font: 2rem "font1";
+    text-shadow: 3px 5px 8px #000000;
+    margin-top: 0;
+}
+.pg3cont2 h1 span{
+    color: orangered;
+}
+
+.pg3cont2 p{
+    font: 1.2rem "font4";
+    text-shadow: 5px 10px 8px #000000;
+}
+
 }
