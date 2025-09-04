@@ -44,4 +44,34 @@ nav{
     font: bold 2rem/1.2 "font3";
 }
 
+
+.pg2-cont {
+   height: 96vh;
+    width: 96vw;
+    background: url(assests/pic6.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+#page2 h1{
+    color: orangered;
+    margin-top: 5vh;
+    font: bold 4rem/1.2 "font2";
+}
+#page2 h2{
+    font: 2rem "font1";
+    
+}
+#page2 h3{
+    font: bold italic 1.5rem "font3";
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
 }

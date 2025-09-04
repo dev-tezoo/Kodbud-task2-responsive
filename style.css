@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,7 +21,7 @@
 
 
 
-#page1{
+#page1 {
     background-color: black;
     color: white;
     height: 100vh;
@@ -29,7 +29,7 @@
     padding: 5vh 5vw;
 }
 
-nav{
+nav {
     height: 10vh;
     width: 90vw;
     background-color: rgba(255, 255, 255, 0.179);
@@ -40,18 +40,19 @@ nav{
     padding: 0 2vw;
 }
 
-.nav-left{
+.nav-left {
     color: rgb(255, 255, 255);
     font-family: font2;
     font-size: 2rem;
     transition: ease-in-out 0.3s;
     cursor: pointer;
 }
-.nav-left:hover{
+
+.nav-left:hover {
     scale: 1.2;
 }
 
-.nav-right ul{
+.nav-right ul {
     display: flex;
     list-style: none;
     color: black;
@@ -59,10 +60,11 @@ nav{
 }
 
 
-.nav-right ul li a{
+.nav-right ul li a {
     text-decoration: none;
 }
-.follow-btn{
+
+.follow-btn {
     padding: 5px 15px;
     background-color: orangered;
     color: white;
@@ -75,16 +77,18 @@ nav{
     display: flex;
     align-items: center;
 }
-.follow-btn img{
+
+.follow-btn img {
     margin-left: 5px;
     width: 20px;
     height: 20px;
 }
-.follow-btn:hover{
+
+.follow-btn:hover {
     scale: 1.1;
 }
 
-.pg1-body{
+.pg1-body {
     background: url(assests/pic4.JPG);
     background-repeat: no-repeat;
     background-position: center;
@@ -98,20 +102,53 @@ nav{
     justify-content: center;
 }
 
-.pg1-body h1{
+.pg1-body h1 {
     font-family: font4;
     font-size: 12rem;
     color: rgb(255, 38, 0);
 }
-.pg1-body h2{
+
+.pg1-body h2 {
     font-size: 2rem;
+    text-shadow: 2px 2px 4px #000000;
 }
 
-#page2{
+#page2 {
+   background-color: black;
+    color: white;
     height: 100vh;
     width: 100vw;
-    background-image: url(assests/pic2.JPG);
-        background-repeat: no-repeat;
+    padding: 2vh 2vw;
+   
+}
+
+.pg2-cont {
+    height: 96vh;
+    width: 96vw;
+    background: url(assests/pic1.JPG);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2vh;
+
+}
+
+#page2 h1{
+    margin-top: 65vh;
+    font: bold 5rem/1.2 "font2";
+    color: rgb(255, 38, 0);
+    text-shadow: 5px 10px 9px #000000;
+}
+#page2 h2{
+    font: 3rem "font1";
+    color: white;
+     line-height: 5vh;
+    text-shadow: 2px 2px 4px #000000;
+}
+#page2 h3{
+    font: bold italic 1.5rem "font3";
+    color: rgb(0, 0, 0);
 }
