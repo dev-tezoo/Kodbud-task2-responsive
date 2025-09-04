@@ -282,3 +282,18 @@ nav {
     background-size: cover;
     border: 2px solid white;
 }
+
+footer{
+    height: 20vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p{
+    font: 1rem "font3";
+    padding: 0 5vw;
+}

@@ -186,4 +186,15 @@ nav{
     background-size: cover;
 }
 
+footer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+footer p{
+    font: 1rem "font3";
+    padding: 0 5vw;
+}
+
 }
