@@ -187,6 +187,7 @@ nav{
 }
 
 footer{
+    padding-top: 3vh;
     flex-direction: column;
     align-items: center;
     justify-content: start;
@@ -194,7 +195,7 @@ footer{
 
 footer p{
     font: 1rem "font3";
-    padding: 0 5vw;
+    padding: 0 2vw;
 }
 
 }

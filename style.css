@@ -284,6 +284,7 @@ nav {
 }
 
 footer{
+    border-top: 2px solid gray;
     height: 20vh;
     width: 100vw;
     background-color: black;
